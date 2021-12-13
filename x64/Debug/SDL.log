@@ -1,0 +1,34 @@
+﻿  Ball.cpp
+  Bullet.cpp
+  Enemy.cpp
+  Game.cpp
+  InputHandler.cpp
+C:\Users\tnwhd\source\repos\SDL\SDL\Vector2D.h(15,29): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\InputHandler.cpp(66,37): warning C4244: '인수': 'Sint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\InputHandler.cpp(67,37): warning C4244: '인수': 'Sint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Map.cpp
+C:\Users\tnwhd\source\repos\SDL\SDL\Map.cpp(17,39): warning C4838: 'float'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\Map.cpp(17,39): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\Map.cpp(17,57): warning C4838: 'float'에서 'int'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\Map.cpp(17,57): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+C:\Users\tnwhd\source\repos\SDL\SDL\Player.cpp(111,50): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\Player.cpp(117,39): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\Player.cpp(122,58): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SDLGameObject.cpp
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(11,48): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(11,31): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(79,30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(80,34): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(82,30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(83,34): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(103,29): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(104,35): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(106,29): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tnwhd\source\repos\SDL\SDL\SDLGameObject.cpp(107,35): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ScrollBG.cpp
+  main.cpp
+C:\Users\tnwhd\source\repos\SDL\SDL\main.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\tnwhd\source\repos\SDL\SDL\main.cpp(15,32): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  SDL.vcxproj -> C:\Users\tnwhd\source\repos\SDL\x64\Debug\SDL.exe

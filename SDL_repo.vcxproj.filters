@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Button">
+      <UniqueIdentifier>{80c5d0b1-097d-4c4e-9b9f-b2ddfc54b150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{f2a67ec3-3448-4061-9162-fbf63c9859f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Nation">
+      <UniqueIdentifier>{53b39cef-a2e5-420c-8561-9de1cdfabd19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{c33cd091-de6a-4f7d-8943-0ee32a06069e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\resource">
+      <UniqueIdentifier>{859ed1af-633b-4455-bd32-1f41d64e3959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface">
+      <UniqueIdentifier>{cc21b4f1-195c-4bac-a9e4-423723f26401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands">
+      <UniqueIdentifier>{10bde188-80bc-419f-849c-2d4faa59cfa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\window">
+      <UniqueIdentifier>{19da2657-229d-4a75-9a23-daca3e7bd7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\resource\res">
+      <UniqueIdentifier>{75da5434-c8c1-42e7-b4ad-4206448d5468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI\window\Info">
+      <UniqueIdentifier>{61f06674-4fac-487d-913e-e52dabe2c0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Info">
+      <UniqueIdentifier>{dbe3c484-8afd-4cd0-a0f9-440526232690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Supply">
+      <UniqueIdentifier>{0d1502db-a3b1-4771-a471-d67377e0cdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Product">
+      <UniqueIdentifier>{aec389be-99a2-4fc8-94d9-2863a2f119d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Observer">
+      <UniqueIdentifier>{4a81b2ae-bd5a-4c68-b045-d4f30648cc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Product\Data">
+      <UniqueIdentifier>{e24591cf-1d4d-4f49-b746-68cdb4006588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Product\Process">
+      <UniqueIdentifier>{ad82d176-4292-415b-80f6-c7c5bd9fb9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Swat">
+      <UniqueIdentifier>{88cbcc51-f6de-4451-b944-440b00484a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Swat\SwatProduct">
+      <UniqueIdentifier>{07db976e-eb9e-4307-8933-648dbc5fc1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Swat\SwatInsert">
+      <UniqueIdentifier>{7b452273-4ce6-43e9-ab91-917391bf9da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData">
+      <UniqueIdentifier>{853563e0-bc0d-403a-bbbd-7a4bcb95ca3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLGameObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderParams.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Playroom.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayroomHandler.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonHandler.cpp">
+      <Filter>소스 파일\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="NationHandler.cpp">
+      <Filter>소스 파일\Nation</Filter>
+    </ClCompile>
+    <ClCompile Include="Nation.cpp">
+      <Filter>소스 파일\Nation</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="HpBar.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceData.cpp">
+      <Filter>소스 파일\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="DataControl.cpp">
+      <Filter>소스 파일\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="DataView.cpp">
+      <Filter>소스 파일\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일\UI\window</Filter>
+    </ClCompile>
+    <ClCompile Include="FD.cpp">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClCompile>
+    <ClCompile Include="MD.cpp">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClCompile>
+    <ClCompile Include="WP.cpp">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoView.cpp">
+      <Filter>소스 파일\UI\window\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoData.cpp">
+      <Filter>소스 파일\UI\window\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoControl.cpp">
+      <Filter>소스 파일\UI\window\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_Info.cpp">
+      <Filter>소스 파일\Interface\Commands\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_Xbutton.cpp">
+      <Filter>소스 파일\Interface\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="HP.cpp">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_UseResrc.cpp">
+      <Filter>소스 파일\Interface\Commands\Supply</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_SupplyProcess.cpp">
+      <Filter>소스 파일\Interface\Commands\Supply</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_SupplyEnd.cpp">
+      <Filter>소스 파일\Interface\Commands\Supply</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_ProductProcess.cpp">
+      <Filter>소스 파일\Interface\Commands\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>소스 파일\Interface\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductData.cpp">
+      <Filter>소스 파일\Interface\Commands\Product\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductView.cpp">
+      <Filter>소스 파일\Interface\Commands\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductViewModel.cpp">
+      <Filter>소스 파일\Interface\Commands\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_ProduceResource.cpp">
+      <Filter>소스 파일\Interface\Commands\Product\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_SwatProductProcess.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct</Filter>
+    </ClCompile>
+    <ClCompile Include="SwatProductView.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClCompile>
+    <ClCompile Include="SwatProductViewModel.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClCompile>
+    <ClCompile Include="SwatProductData.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_Investment_ReSource.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct</Filter>
+    </ClCompile>
+    <ClCompile Include="SwatDataView.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClCompile>
+    <ClCompile Include="SwatRateView.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_InvestmentProcess_Swat.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatInsert</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_InvestmentEnd_Swat.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatInsert</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_Investment_Swat.cpp">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatInsert</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmd_Turn.cpp">
+      <Filter>소스 파일\Interface\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="SubjectNation.cpp">
+      <Filter>소스 파일\Interface\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupWin.cpp">
+      <Filter>소스 파일\Button</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLGameObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderParams.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스 파일\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Playroom.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayroomHandler.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonHandler.h">
+      <Filter>소스 파일\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Nation.h">
+      <Filter>소스 파일\Nation</Filter>
+    </ClInclude>
+    <ClInclude Include="NationHandler.h">
+      <Filter>소스 파일\Nation</Filter>
+    </ClInclude>
+    <ClInclude Include="HpBar.h">
+      <Filter>소스 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceData.h">
+      <Filter>소스 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DataControl.h">
+      <Filter>소스 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DataView.h">
+      <Filter>소스 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>소스 파일\Interface\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>소스 파일\UI\window</Filter>
+    </ClInclude>
+    <ClInclude Include="FD.h">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClInclude>
+    <ClInclude Include="MD.h">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClInclude>
+    <ClInclude Include="WP.h">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoView.h">
+      <Filter>소스 파일\UI\window\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoData.h">
+      <Filter>소스 파일\UI\window\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoControl.h">
+      <Filter>소스 파일\UI\window\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_Info.h">
+      <Filter>소스 파일\Interface\Commands\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Use.h">
+      <Filter>소스 파일\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_Xbutton.h">
+      <Filter>소스 파일\Interface\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Take.h">
+      <Filter>소스 파일\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="HP.h">
+      <Filter>소스 파일\resource\res</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_UseResrc.h">
+      <Filter>소스 파일\Interface\Commands\Supply</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_SupplyProcess.h">
+      <Filter>소스 파일\Interface\Commands\Supply</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_SupplyEnd.h">
+      <Filter>소스 파일\Interface\Commands\Supply</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_ProductProcess.h">
+      <Filter>소스 파일\Interface\Commands\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>소스 파일\Interface\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>소스 파일\Interface\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductView.h">
+      <Filter>소스 파일\Interface\Commands\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductData.h">
+      <Filter>소스 파일\Interface\Commands\Product\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductViewModel.h">
+      <Filter>소스 파일\Interface\Commands\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_ProduceResource.h">
+      <Filter>소스 파일\Interface\Commands\Product\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_SwatProductProcess.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct</Filter>
+    </ClInclude>
+    <ClInclude Include="SwatProductData.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClInclude>
+    <ClInclude Include="SwatProductView.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClInclude>
+    <ClInclude Include="SwatProductViewModel.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_Investment_ReSource.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct</Filter>
+    </ClInclude>
+    <ClInclude Include="SwatDataView.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClInclude>
+    <ClInclude Include="SwatRateView.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatProduct\SwatProductData</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_InvestmentProcess_Swat.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatInsert</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_InvestmentEnd_Swat.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatInsert</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_Investment_Swat.h">
+      <Filter>소스 파일\Interface\Commands\Swat\SwatInsert</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd_Turn.h">
+      <Filter>소스 파일\Interface\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="SubjectNation.h">
+      <Filter>소스 파일\Interface\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupWin.h">
+      <Filter>소스 파일\Button</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
